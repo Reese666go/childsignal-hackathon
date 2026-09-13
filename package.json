@@ -1,0 +1,26 @@
+{
+  "name": "childsignal",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A longitudinal observation agent for preschool teachers, built with Strands Agents.",
+  "scripts": {
+    "capture": "tsx src/cli.ts",
+    "capture:demo": "tsx src/cli.ts --demo",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@strands-agents/sdk": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}
